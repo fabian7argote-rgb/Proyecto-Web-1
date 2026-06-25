@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Cuenta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<main class="contenedor">
+
+    <header>
+        <a href="aqui va la clase para volver a tu pantalla.html" class="volver">←</a>
+        <h1>Verificación</h1>
+    </header>
+
+    <section class="verificacion">
+
+        <article class="icono-correo">
+            📧
+        </article>
+
+        <article class="informacion">
+
+            <h2>Verifica tu cuenta</h2>
+
+            <p>
+                Completa los siguientes datos para enviar
+                tu entrada electrónica al correo registrado.
+            </p>
+
+        </article>
+
+        <form action="ultima pantalla.html">
+
+            <div class="campo">
+
+                <label for="nombre">Nombre completo</label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ingrese su nombre"
+                    required>
+
+            </div>
+
+            <div class="campo">
+
+                <label for="telefono">Teléfono</label>
+
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="+591 70000000"
+                    required>
+
+            </div>
+
+            <div class="campo">
+
+                <label for="correo">Correo electrónico</label>
+
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    placeholder="correo@ejemplo.com"
+                    required>
+
+            </div>
+
+
+            <div class="exclusivocorreo">
+
+                <input
+                    type="checkbox"
+                    id="exclusivo"
+                    required>
+
+                <label for="exclusivo">
+                    Desea recibir promociones y estrenos exclusivos.
+                </label>
+
+            </div>
+
+            <footer>
+
+                <button type="submit">
+                    Confirmar compra
+                </button>
+
+            </footer>
+
+        </form>
+
+    </section>
+
+</main>
+
+</body>
+</html>
