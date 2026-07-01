@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -9,7 +10,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* CONTENEDORES PRINCIPALES */
+
+            /*CONTENEDORES PRINCIPALES*/
 
 .TT1,
 .TT2,
@@ -24,7 +26,11 @@ body {
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
 }
 
-/* NAVEGACION */
+
+
+/*======================================================
+                    NAVEGACION
+======================================================*/
 
 .Navega,
 .encabezado,
@@ -54,7 +60,9 @@ h2 {
     font-size: 20px;
 }
 
-/* PANTALLA 1 CARTELERA */
+
+
+/* PANTALLA 1 - CARTELERA*/
 
 .cartelera\/img {
     width: 390px;
@@ -77,7 +85,9 @@ h2 {
     margin: 8px 0 0;
 }
 
-/* PANTALLA 2 DETALLE */
+
+
+/*PANTALLA 2 - DETALLE PELICULA*/
 
 .portada img {
     width: 100%;
@@ -166,214 +176,7 @@ h2 {
     cursor: pointer;
 }
 
-/* PANTALLA 3 ASIENTOS */
-
-.encabezado h2 {
-    font-size: 16px;
-    margin: auto;
-}
-
-.pantalla-cine {
-    margin: 25px 0;
-    padding-top: 10px;
-    border-top: 6px solid #574c13;
-    color: #ffc400;
-    text-align: center;
-    letter-spacing: 6px;
-    font-size: 11px;
-}
-
-.asientos {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 10px;
-}
-
-.asiento {
-    height: 28px;
-    border-radius: 7px;
-    border: 1px solid #2655aa;
-    font-size: 9px;
-}
-
-.asiento.libre,
-.cuadro.libre {
-    background: #10275c;
-    color: white;
-}
-
-.asiento.ocupado,
-.cuadro.ocupado {
-    background: #333;
-    color: #777;
-    border: none;
-}
-
-.asiento.seleccionado,
-.cuadro.seleccionado {
-    background: #ffc400;
-    color: #000;
-    border: none;
-}
-
-.leyenda-asientos {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 0;
-    font-size: 11px;
-    color: #aaa;
-}
-
-.leyenda-asientos article {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.cuadro {
-    width: 12px;
-    height: 12px;
-    border-radius: 3px;
-    display: block;
-}
-
-.resumen-asientos{
-    background:#1f1f1f;
-    border-radius:22px;
-    padding:20px;
-    display:flex;
-    gap:18px;
-    align-items:flex-start;
-}
-
-.resumen-asientos img{
-    width:80px;
-    height:110px;
-    border-radius:12px;
-    object-fit:cover;
-}
-
-.info-resumen{
-    flex:1;
-}
-
-.info-resumen h3{
-    margin:0;
-    font-size:18px;
-}
-
-.fecha{
-    margin:8px 0 20px;
-    color:#8f8f8f;
-    font-size:13px;
-}
-
-.detalle-resumen{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-end;
-}
-
-.titulo{
-    display:block;
-    color:#777;
-    font-size:11px;
-    letter-spacing:2px;
-    margin-bottom:10px;
-}
-
-.asientos-elegidos{
-    display:flex;
-    gap:8px;
-}
-
-.asientos-elegidos span{
-    background:#ffc400;
-    color:#000;
-    padding:6px 12px;
-    border-radius:8px;
-    font-size:12px;
-    font-weight:bold;
-}
-
-.precio{
-    text-align:right;
-}
-
-.precio h2{
-    margin:0;
-    color:white;
-    font-size:22px;
-}
-
-/* PANTALLA VERIFICACION */
-
-.verificacion {
-    margin-top: 30px;
-}
-
-.icono-correo {
-    width: 70px;
-    height: 70px;
-    background: #202020;
-    border-radius: 16px;
-    display: grid;
-    place-items: center;
-    font-size: 32px;
-    color: #ffc400;
-}
-
-.informacion h2 {
-    font-size: 24px;
-    margin-top: 30px;
-}
-
-.informacion p {
-    color: #aaa;
-    line-height: 1.6;
-    font-size: 13px;
-}
-
-.campo {
-    display: flex;
-    flex-direction: column;
-    margin-top: 18px;
-}
-
-.campo label {
-    color: #aaa;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 8px;
-}
-
-.campo input {
-    background: #202020;
-    color: white;
-    border: none;
-    border-radius: 14px;
-    padding: 18px;
-    outline: none;
-}
-
-.exclusivocorreo {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-top: 20px;
-    color: #aaa;
-    font-size: 12px;
-}
-
-.exclusivocorreo input {
-    accent-color: #ffc400;
-}
-
-/* ========================= */
-/* PANTALLA 2 - DETALLE */
-/* ========================= */
-
+/*PANTALLA 2 - DETALLE AJUSTADO AL FIGMA*/
 .TT2 {
     width: 390px;
     min-height: 850px;
@@ -506,11 +309,147 @@ h2 {
     letter-spacing: 3px;
     margin-top: 25px;
 }
+/*PANTALLA 3 - SELECCIÓN DE ASIENTOS*/
 
+.encabezado h2 {
+    font-size: 16px;
+    margin: auto;
+}
 
-/* ========================= */
-/* PANTALLA 4 - RESUMEN */
-/* ========================= */
+.pantalla-cine {
+    margin: 25px 0;
+    padding-top: 10px;
+    border-top: 6px solid #574c13;
+    color: #ffc400;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 11px;
+}
+
+.asientos {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+}
+
+.asiento {
+    height: 28px;
+    border-radius: 7px;
+    border: 1px solid #2655aa;
+    font-size: 9px;
+}
+
+.asiento.libre,
+.cuadro.libre {
+    background: #10275c;
+    color: white;
+}
+
+.asiento.ocupado,
+.cuadro.ocupado {
+    background: #333;
+    color: #777;
+    border: none;
+}
+
+.asiento.seleccionado,
+.cuadro.seleccionado {
+    background: #ffc400;
+    color: #000;
+    border: none;
+}
+
+.leyenda-asientos {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+    font-size: 11px;
+    color: #aaa;
+}
+
+.leyenda-asientos article {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cuadro {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    display: block;
+}
+
+.resumen-asientos {
+    background: #1f1f1f;
+    border-radius: 22px;
+    padding: 20px;
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+}
+
+.resumen-asientos img {
+    width: 80px;
+    height: 110px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.info-resumen {
+    flex: 1;
+}
+
+.info-resumen h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.fecha {
+    margin: 8px 0 20px;
+    color: #8f8f8f;
+    font-size: 13px;
+}
+
+.detalle-resumen {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.titulo {
+    display: block;
+    color: #777;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.asientos-elegidos {
+    display: flex;
+    gap: 8px;
+}
+
+.asientos-elegidos span {
+    background: #ffc400;
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.precio {
+    text-align: right;
+}
+
+.precio h2 {
+    margin: 0;
+    color: white;
+    font-size: 22px;
+}
+
+/*PANTALLA 4 - RESUMEN DE COMPRA*/
 
 .pantalla-pago {
     width: 390px;
@@ -693,4 +632,206 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 3px;
+}
+/*======================================================
+          PANTALLA 5 - VERIFICAR CUENTA
+======================================================*/
+
+.verificacion {
+    margin-top: 30px;
+}
+
+.icono-correo {
+    width: 70px;
+    height: 70px;
+    background: #202020;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    color: #ffc400;
+}
+
+.informacion h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.informacion p {
+    color: #aaa;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.campo label {
+    color: #aaa;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    background: #202020;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 18px;
+    outline: none;
+}
+
+.exclusivocorreo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.exclusivocorreo input {
+    accent-color: #ffc400;
+}
+
+/*PANTALLA 6 - COMPRA EXITOSA*/
+
+.pantalla-final {
+    width: 390px;
+    min-height: 850px;
+    margin: 40px auto;
+    padding: 28px;
+    background: #000;
+    color: white;
+    border-radius: 28px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.pantalla-final .encabezado {
+    justify-content: center;
+}
+
+.pantalla-final .encabezado h2 {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.confirmacion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icono-confirmacion {
+    width: 80px;
+    height: 80px;
+    background: #ffc400;
+    color: #000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0 auto 25px;
+}
+
+.confirmacion h1 {
+    color: white;
+    letter-spacing: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmacion p {
+    color: #aaa;
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.entrada {
+    background: #1f1f1f;
+    border-radius: 22px;
+    padding: 18px;
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.entrada img {
+    width: 80px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.detalle-entrada h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.detalle-entrada p {
+    margin: 6px 0;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.codigo-qr {
+    margin-top: 25px;
+    background: #1f1f1f;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.codigo-qr img {
+    width: 160px;
+    height: 160px;
+    background: white;
+    padding: 10px;
+    border-radius: 14px;
+    object-fit: contain;
+}
+
+.codigo-qr p {
+    color: #aaa;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.codigo-qr strong {
+    color: #ffc400;
+    letter-spacing: 2px;
+}
+
+.pantalla-final .informacion {
+    background: #101010;
+    border-left: 4px solid #ffc400;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.pantalla-final .informacion p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+.btn-principal {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background: #ffc400;
+    color: #000;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 25px;
 }
