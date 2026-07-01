@@ -1,0 +1,136 @@
+/*PANTALLA 6 - COMPRA EXITOSA*/
+
+.pantalla-final {
+    width: 390px;
+    min-height: 850px;
+    margin: 40px auto;
+    padding: 28px;
+    background: #000;
+    color: white;
+    border-radius: 28px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.pantalla-final .encabezado {
+    justify-content: center;
+}
+
+.pantalla-final .encabezado h2 {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.confirmacion {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icono-confirmacion {
+    width: 80px;
+    height: 80px;
+    background: #ffc400;
+    color: #000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0 auto 25px;
+}
+
+.confirmacion h1 {
+    color: white;
+    letter-spacing: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.confirmacion p {
+    color: #aaa;
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.entrada {
+    background: #1f1f1f;
+    border-radius: 22px;
+    padding: 18px;
+    margin-top: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.entrada img {
+    width: 80px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.detalle-entrada h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.detalle-entrada p {
+    margin: 6px 0;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.codigo-qr {
+    margin-top: 25px;
+    background: #1f1f1f;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.codigo-qr img {
+    width: 160px;
+    height: 160px;
+    background: white;
+    padding: 10px;
+    border-radius: 14px;
+    object-fit: contain;
+}
+
+.codigo-qr p {
+    color: #aaa;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.codigo-qr strong {
+    color: #ffc400;
+    letter-spacing: 2px;
+}
+
+.pantalla-final .informacion {
+    background: #101010;
+    border-left: 4px solid #ffc400;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+.pantalla-final .informacion p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 6px 0;
+}
+
+.btn-principal {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background: #ffc400;
+    color: #000;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 25px;
+}

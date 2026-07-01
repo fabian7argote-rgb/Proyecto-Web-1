@@ -1,0 +1,184 @@
+/*PANTALLA 4 - RESUMEN DE COMPRA*/
+
+.pantalla-pago {
+    width: 390px;
+    min-height: 850px;
+    margin: 40px auto;
+    padding: 28px;
+    background: #000;
+    color: white;
+    border-radius: 28px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+}
+
+.pantalla-pago .encabezado {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.pantalla-pago .encabezado h2 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.pantalla-pago .volver {
+    color: white;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.tarjeta-pelicula {
+    background: #1f1f1f;
+    border-radius: 18px;
+    padding: 16px;
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.tarjeta-pelicula img {
+    width: 65px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.info-pelicula h3 {
+    margin: 0 0 8px;
+    font-size: 15px;
+}
+
+.info-pelicula p {
+    margin: 4px 0;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.info-pelicula .sala {
+    color: #ffc400;
+    font-weight: bold;
+}
+
+.detalle-compra {
+    margin-top: 30px;
+}
+
+.item-compra,
+.fila-costo,
+.total-compra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-compra h4,
+.asientos-seleccionados h4,
+.metodos-pago h4 {
+    color: #777;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+.item-compra p {
+    color: #aaa;
+    font-size: 12px;
+    margin: 0;
+}
+
+.item-compra span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.asientos-seleccionados {
+    margin-top: 25px;
+}
+
+.lista-asientos {
+    display: flex;
+    gap: 10px;
+}
+
+.lista-asientos span {
+    background: #1f1f1f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.costos {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #333;
+}
+
+.fila-costo {
+    margin-bottom: 12px;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.total-compra {
+    margin-top: 25px;
+}
+
+.total-compra h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.total-compra span {
+    color: #ffc400;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.metodos-pago {
+    margin-top: 30px;
+}
+
+.opcion-pago {
+    background: #1f1f1f;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.opcion-pago:has(input:checked) {
+    border: 1px solid #ffc400;
+}
+
+.opcion-pago input {
+    accent-color: #ffc400;
+}
+
+.opcion-pago span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.acciones {
+    margin-top: 25px;
+}
+
+.btn-pagar {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background: #ffc400;
+    color: #000;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}

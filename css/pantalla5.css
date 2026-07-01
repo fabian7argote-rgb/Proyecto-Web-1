@@ -1,0 +1,63 @@
+/*PANTALLA 5 - VERIFICAR CUENTA*/
+
+.verificacion {
+    margin-top: 30px;
+}
+
+.icono-correo {
+    width: 70px;
+    height: 70px;
+    background: #202020;
+    border-radius: 16px;
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    color: #ffc400;
+}
+
+.informacion h2 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.informacion p {
+    color: #aaa;
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.campo label {
+    color: #aaa;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    background: #202020;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 18px;
+    outline: none;
+}
+
+.exclusivocorreo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 12px;
+}
+
+.exclusivocorreo input {
+    accent-color: #ffc400;
+}

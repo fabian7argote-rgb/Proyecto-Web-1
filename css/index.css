@@ -1,0 +1,22 @@
+/* PANTALLA 1 - CARTELERA*/
+
+.cartelera\/img {
+    width: 390px;
+    margin: -680px auto 40px;
+    padding: 0 28px 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.pelicula img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pelicula h3 {
+    font-size: 11px;
+    margin: 8px 0 0;
+}
