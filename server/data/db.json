@@ -1,0 +1,186 @@
+{
+"peliculas": [
+    {
+    "id": 1,
+    "titulo": "Horizonte 2077",
+    "imagen": "img/img2.png",
+    "genero": "Ciencia ficción",
+    "duracion": "2h 08m",
+    "anio": "2022",
+    "descripcion": "En un futuro no muy lejano, la humanidad lucha por sobrevivir en una Tierra transformada por la tecnología y el cambio climático.",
+    "sala": "IMAX 3D",
+    "idioma": "Español",
+    "formato": "3D Digital"
+    },
+    {
+    "id": 2,
+    "titulo": "Guardianes del Multiverso",
+    "imagen": "img/img.png",
+    "genero": "Acción",
+    "duracion": "2h 15m",
+    "anio": "2024",
+    "descripcion": "Un grupo de héroes debe proteger distintas realidades antes de que el multiverso colapse.",
+    "sala": "Sala 2",
+    "idioma": "Español",
+    "formato": "Digital"
+    },
+    {
+    "id": 3,
+    "titulo": "El Último Refugio",
+    "imagen": "img/img3.png",
+    "genero": "Aventura",
+    "duracion": "1h 55m",
+    "anio": "2023",
+    "descripcion": "Una familia busca sobrevivir en un antiguo refugio mientras descubre secretos del pasado.",
+    "sala": "Sala 3",
+    "idioma": "Español",
+    "formato": "Digital"
+    },
+    {
+    "id": 4,
+    "titulo": "Neon Rebels",
+    "imagen": "img/img1.png",
+    "genero": "Ciencia ficción",
+    "duracion": "2h 02m",
+    "anio": "2024",
+    "descripcion": "Jóvenes rebeldes enfrentan a una corporación que domina una ciudad iluminada por neón.",
+    "sala": "Sala 4",
+    "idioma": "Español",
+    "formato": "Digital"
+    },
+    {
+    "id": 5,
+    "titulo": "Velocidad Máxima",
+    "imagen": "img/img5.png",
+    "genero": "Acción",
+    "duracion": "1h 48m",
+    "anio": "2023",
+    "descripcion": "Una carrera clandestina se convierte en una misión para salvar la ciudad.",
+    "sala": "Sala 5",
+    "idioma": "Español",
+    "formato": "Digital"
+    },
+    {
+    "id": 6,
+    "titulo": "El Bosque Mágico",
+    "imagen": "img/img6.png",
+    "genero": "Fantasía",
+    "duracion": "1h 50m",
+    "anio": "2024",
+    "descripcion": "Un bosque encantado esconde criaturas, misterios y una puerta hacia otro mundo.",
+    "sala": "Sala 6",
+    "idioma": "Español",
+    "formato": "Digital"
+    },
+    {
+    "id": 7,
+    "titulo": "Sombras en la Ciudad",
+    "imagen": "img/img4.png",
+    "genero": "Suspenso",
+    "duracion": "1h 58m",
+    "anio": "2024",
+    "descripcion": "Un detective investiga una serie de sucesos extraños en una ciudad llena de secretos.",
+    "sala": "Sala 7",
+    "idioma": "Español",
+    "formato": "Digital"
+    }
+],
+"funciones": [
+    {
+    "id": "1-Hoy_24_May-3:00_PM",
+    "peliculaId": 1,
+    "fecha": "Hoy 24 May",
+    "hora": "3:00 PM",
+    "ocupados": [
+        "A2",
+        "A3",
+        "B3",
+        "B4",
+        "C4"
+    ]
+    },
+    {
+    "id": "4-Hoy_24_May-3:00_PM",
+    "peliculaId": 4,
+    "fecha": "Hoy 24 May",
+    "hora": "3:00 PM",
+    "ocupados": [
+        "A2",
+        "A3",
+        "B3",
+        "C4",
+        "D4",
+        "E4",
+        "F5"
+    ]
+    }
+],
+"reservas": [
+    {
+    "codigo": "CMX-2026-000001",
+    "peliculaId": 1,
+    "peliculaTitulo": "Horizonte 2077",
+    "imagen": "img/img2.png",
+    "fecha": "Hoy 24 May",
+    "hora": "3:00 PM",
+    "sala": "IMAX 3D",
+    "asientos": [
+        "B4",
+        "C4"
+    ],
+    "cliente": {
+        "nombre": "Fabian",
+        "telefono": "78795905",
+        "correo": "kfa683003@gmail.com",
+        "promociones": true
+    },
+    "metodoPago": "Tarjeta de Crédito",
+    "total": 165,
+    "fechaCompra": "2026-07-10T00:49:49.533Z"
+    },
+    {
+    "codigo": "CMX-2026-000002",
+    "peliculaId": 4,
+    "peliculaTitulo": "Neon Rebels",
+    "imagen": "img/img1.png",
+    "fecha": "Hoy 24 May",
+    "hora": "3:00 PM",
+    "sala": "Sala 4",
+    "asientos": [
+        "C4",
+        "D4"
+    ],
+    "cliente": {
+        "nombre": "Fabian",
+        "telefono": "78795905",
+        "correo": "kfa683003@gmail.com",
+        "promociones": false
+    },
+    "metodoPago": "Tarjeta de Crédito",
+    "total": 165,
+    "fechaCompra": "2026-07-10T00:50:12.168Z"
+    },
+    {
+    "codigo": "CMX-2026-000003",
+    "peliculaId": 4,
+    "peliculaTitulo": "Neon Rebels",
+    "imagen": "img/img1.png",
+    "fecha": "Hoy 24 May",
+    "hora": "3:00 PM",
+    "sala": "Sala 4",
+    "asientos": [
+        "E4",
+        "F5"
+    ],
+    "cliente": {
+        "nombre": "Fabian",
+        "telefono": "78795905",
+        "correo": "kfa683003@gmail.com",
+        "promociones": false
+    },
+    "metodoPago": "Apple Pay",
+    "total": 165,
+    "fechaCompra": "2026-07-10T00:50:35.826Z"
+    }
+]
+}
