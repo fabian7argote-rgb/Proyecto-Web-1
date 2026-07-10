@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         guardar('pelicula', pelicula);
         borrar('seleccionFuncion');
         borrar('compraActual');
-        window.location.href = `pantalla2.html?id=${pelicula.id}`;
+        window.location.href = `pelicula.html?id=${pelicula.id}`;
         });
 
         article.addEventListener('keydown', (event) => {

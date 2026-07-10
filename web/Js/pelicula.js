@@ -59,6 +59,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     guardar('seleccionFuncion', seleccionFuncion);
     borrar('compraActual');
-    window.location.href = `pantalla3.html?id=${pelicula.id}`;
+    window.location.href = `asientos.html?id=${pelicula.id}`;
     });
 });

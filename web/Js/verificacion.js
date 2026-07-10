@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!compra) {
     alert('Primero debes completar la compra.');
-    window.location.href = 'pantalla4.html';
+    window.location.href = 'pago.html';
     return;
     }
 
-    if (volver) volver.href = 'pantalla4.html';
+    if (volver) volver.href = 'pago.html';
 
     form.addEventListener('submit', async (event) => {
     event.preventDefault();
@@ -41,10 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         guardar('reservaFinal', respuesta.reserva);
         borrar('compraActual');
-        window.location.href = `pantalla6.html?codigo=${respuesta.reserva.codigo}`;
+        window.location.href = `final.html?codigo=${respuesta.reserva.codigo}`;
     } catch (error) {
         alert(error.message);
-        window.location.href = `pantalla3.html?id=${compra.pelicula.id}`;
+        window.location.href = `asientos.html?id=${compra.pelicula.id}`;
     }
     });
 });

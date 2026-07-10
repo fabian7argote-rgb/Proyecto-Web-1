@@ -118,7 +118,7 @@ botonContinuar.addEventListener('click', (event) => {
     ...calculo
     });
 
-    window.location.href = 'pantalla4.html';
+    window.location.href = 'pago.html';
 });
 
 renderizarAsientos();

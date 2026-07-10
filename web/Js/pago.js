@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!compra) {
     alert('Primero debes seleccionar tus asientos.');
-    window.location.href = 'pantalla3.html';
+    window.location.href = 'asientos.html';
     return;
     }
 
@@ -47,6 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const metodoPago = document.querySelector('input[name="pago"]:checked')?.value || 'Tarjeta de Crédito';
     compra.metodoPago = metodoPago;
     guardar('compraActual', compra);
-    window.location.href = 'pantalla5.html';
+    window.location.href = 'verificacion.html';
     });
 });
