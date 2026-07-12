@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sebastian Alvarez-Fabian Argote",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
