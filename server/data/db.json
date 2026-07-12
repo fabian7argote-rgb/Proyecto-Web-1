@@ -157,6 +157,41 @@
         "A3",
         "B3"
       ]
+    },
+    {
+      "id": "6-Lunes_27_May-9:00_PM",
+      "peliculaId": 6,
+      "fecha": "Lunes 27 May",
+      "hora": "9:00 PM",
+      "ocupados": [
+        "A2",
+        "A3",
+        "B3"
+      ]
+    },
+    {
+      "id": "5-Lunes_27_May-9:00_PM",
+      "peliculaId": 5,
+      "fecha": "Lunes 27 May",
+      "hora": "9:00 PM",
+      "ocupados": [
+        "A2",
+        "A3",
+        "B3"
+      ]
+    },
+    {
+      "id": "6-Hoy_24_May-9:00_PM",
+      "peliculaId": 6,
+      "fecha": "Hoy 24 May",
+      "hora": "9:00 PM",
+      "ocupados": [
+        "A2",
+        "A3",
+        "B3",
+        "H7",
+        "H8"
+      ]
     }
   ],
   "reservas": [
@@ -225,6 +260,28 @@
       "metodoPago": "Apple Pay",
       "total": 165,
       "fechaCompra": "2026-07-10T00:50:35.826Z"
+    },
+    {
+      "codigo": "CMX-2026-000004",
+      "peliculaId": 6,
+      "peliculaTitulo": "El Bosque Mágico",
+      "imagen": "img/img6.png",
+      "fecha": "Hoy 24 May",
+      "hora": "9:00 PM",
+      "sala": "Sala 6",
+      "asientos": [
+        "H7",
+        "H8"
+      ],
+      "cliente": {
+        "nombre": "Fabian",
+        "telefono": "78795905",
+        "correo": "kfa683003@gmail.com",
+        "promociones": false
+      },
+      "metodoPago": "Tarjeta de Crédito",
+      "total": 165,
+      "fechaCompra": "2026-07-12T22:59:07.632Z"
     }
   ]
 }

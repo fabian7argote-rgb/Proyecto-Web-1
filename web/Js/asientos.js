@@ -22,7 +22,7 @@ if (pelicula) {
     resumenImg.src = pelicula.imagen;
     resumenImg.alt = pelicula.titulo;
     resumenTitulo.textContent = pelicula.titulo;
-    if (volver) volver.href = `pantalla2.html?id=${pelicula.id}`;
+    if (volver) volver.href = `pelicula.html?id=${pelicula.id}`;
 }
 
 resumenFecha.textContent = `${funcion.fecha} • ${funcion.hora} • ${funcion.sala}`;
@@ -106,7 +106,7 @@ botonContinuar.addEventListener('click', (event) => {
     event.preventDefault();
 
     if (seleccionados.length === 0) {
-    lert('Selecciona al menos un asiento para continuar.');
+    alert('Selecciona al menos un asiento para continuar.');
     return;
     }
 

@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filasCosto[1]) filasCosto[1].textContent = formatearBs(compra.cargoServicio);
     total.textContent = formatearBs(compra.total);
     botonPagar.textContent = `PAGAR ${formatearBs(compra.total)}`;
-    volver.href = `pantalla3.html?id=${pelicula.id}`;
+    volver.href = `asientos.html?id=${pelicula.id}`;
 
     botonPagar.addEventListener('click', (event) => {
     event.preventDefault();
