@@ -135,6 +135,28 @@
         "A3",
         "B3"
       ]
+    },
+    {
+      "id": "7-Hoy_24_May-9:00_PM",
+      "peliculaId": 7,
+      "fecha": "Hoy 24 May",
+      "hora": "9:00 PM",
+      "ocupados": [
+        "A2",
+        "A3",
+        "B3"
+      ]
+    },
+    {
+      "id": "6-Domingo_26_May-9:00_PM",
+      "peliculaId": 6,
+      "fecha": "Domingo 26 May",
+      "hora": "9:00 PM",
+      "ocupados": [
+        "A2",
+        "A3",
+        "B3"
+      ]
     }
   ],
   "reservas": [
